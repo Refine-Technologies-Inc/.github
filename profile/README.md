@@ -20,7 +20,13 @@ Our core users are researchers at leading universities, think tanks, and central
 
 ### Our Stack
 
-`Python` `FastAPI` `TypeScript` `Next.js` `Azure` `OpenAI` `Claude` `Gemini`
+**Backend** — Python, FastAPI, Celery, Redis queues for orchestrating multi-stage agentic pipelines at scale
+
+**Frontend** — TypeScript, TanStack (Router, Query), React
+
+**Infrastructure** — Azure, Pulumi IaC, containerized deployments
+
+**AI** — Custom LLM routing across OpenAI, Claude, and Gemini among others.
 
 ---
 
