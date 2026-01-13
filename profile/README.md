@@ -22,7 +22,7 @@ Our core users are researchers at leading universities, think tanks, and central
 
 **Backend** — Python, FastAPI, Celery, Redis queues for orchestrating multi-stage agentic pipelines at scale
 
-**Frontend** — TypeScript, TanStack (Router, Query), React
+**Frontend** — TypeScript, TanStack Start, React
 
 **Infrastructure** — Azure, Pulumi IaC, containerized deployments
 
