@@ -15,18 +15,35 @@ Refine is a deep-review engine for technical documents. It uses an agentic pipel
 - **Expert-level depth** — Feedback comparable to a careful 4–6 hour expert read-through, delivered in minutes
 - **Order of magnitude deeper** — Coverage far more thorough than frontier models, even with expert use
 - **Built for complexity** — Especially strong on long, technical, or complex documents where precision and internal consistency matter
+- **Multimodal** — Reviews figures, charts, and tables alongside the prose, not just the text
 
-Our core users are researchers at leading universities, think tanks, and central banks.
+Our core users are researchers at leading universities, think tanks, and central banks — working in fields like medicine, economics, computer science, and law.
 
 ### Our Stack
 
-**Backend** — Python, FastAPI, Celery, Redis queues for orchestrating multi-stage agentic pipelines at scale
+**Backend** — Python, FastAPI, Azure Functions, Redis for orchestrating multi-stage agentic pipelines at scale
 
 **Frontend** — TypeScript, TanStack Start, React
 
 **Infrastructure** — Azure, Pulumi IaC, containerized deployments
 
-**AI** — Custom LLM routing across OpenAI, Claude, and Gemini among others.
+**AI** — Custom routing and orchestration across frontier LLMs — OpenAI, Claude, Gemini, and others
+
+---
+
+### Security & Compliance
+
+Zero data retention with LLM providers — your documents are never stored by the models processing them, and never used for training. SOC 2 and ISO 27001 audits in progress. See our [trust center](https://trust.refine.ink/).
+
+---
+
+### For Developers
+
+Refine ships an MCP server and a REST API, so you can run deep reviews directly from your editor or wire them into your own pipelines.
+
+**[Get started →](https://www.refine.ink/developers)** — setup, REST API reference, and MCP server config (Claude, Cursor, VS Code).
+
+> The developer APIs are in Alpha; contracts may change without versioning.
 
 ---
 
