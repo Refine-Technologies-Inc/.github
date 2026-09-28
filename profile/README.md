@@ -33,7 +33,7 @@ Our core users are researchers at leading universities, think tanks, and central
 
 ### Security & Compliance
 
-Zero data retention with LLM providers — your documents are never stored by the models processing them, and never used for training. ISO 27001 certified. SOC 2 Type I attested, with Type II in progress. See our [trust center](https://trust.refine.ink/).
+Zero data retention with LLM providers — your documents are never stored by the models processing them, and never used for training. ISO 27001 certified. SOC 2 Type 1 attested, with Type 2 in progress. See our [trust center](https://trust.refine.ink/).
 
 ---
 
