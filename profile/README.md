@@ -23,9 +23,9 @@ Our core users are researchers at leading universities, think tanks, and central
 
 **Backend** — Python, FastAPI, and Azure Durable Functions orchestrating multi-stage agentic pipelines at scale, with Redis for caching
 
-**Frontend** — TypeScript, TanStack Start, React, hosted on Vercel
+**Frontend** — TypeScript, TanStack Start, React
 
-**Infrastructure** — Azure, Cloudflare, Pulumi IaC, containerized deployments
+**Infrastructure** — Multi-cloud across Azure, Google Cloud and Cloudflare, with Pulumi IaC and containerized deployments
 
 **AI** — Custom routing and orchestration across frontier LLMs — OpenAI, Claude, Gemini, and others
 
