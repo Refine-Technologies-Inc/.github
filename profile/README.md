@@ -21,11 +21,11 @@ Our core users are researchers at leading universities, think tanks, and central
 
 ### Our Stack
 
-**Backend** — Python, FastAPI, Azure Functions, Redis for orchestrating multi-stage agentic pipelines at scale
+**Backend** — Python, FastAPI, and Azure Durable Functions orchestrating multi-stage agentic pipelines at scale, with Redis for caching
 
 **Frontend** — TypeScript, TanStack Start, React
 
-**Infrastructure** — Azure, Pulumi IaC, containerized deployments
+**Infrastructure** — Multi-cloud across Azure, Google Cloud and Cloudflare, with Pulumi IaC and containerized deployments
 
 **AI** — Custom routing and orchestration across frontier LLMs — OpenAI, Claude, Gemini, and others
 
@@ -33,7 +33,7 @@ Our core users are researchers at leading universities, think tanks, and central
 
 ### Security & Compliance
 
-Zero data retention with LLM providers — your documents are never stored by the models processing them, and never used for training. SOC 2 and ISO 27001 audits in progress. See our [trust center](https://trust.refine.ink/).
+Zero data retention with LLM providers — your documents are never stored by the models processing them, and never used for training. ISO 27001 certified. SOC 2 Type 1 attested, with Type 2 in progress. See our [trust center](https://trust.refine.ink/).
 
 ---
 
@@ -41,7 +41,7 @@ Zero data retention with LLM providers — your documents are never stored by th
 
 Refine ships an MCP server and a REST API, so you can run deep reviews directly from your editor or wire them into your own pipelines.
 
-**[Get started →](https://www.refine.ink/developers)** — setup, REST API reference, and MCP server config (Claude, Cursor, VS Code).
+**[Get started →](https://www.refine.ink/developers)** — setup, REST API reference, the Refine connector in the Claude directory, and MCP server config for Claude Code, Cursor and VS Code.
 
 > The developer APIs are in Alpha; contracts may change without versioning.
 
