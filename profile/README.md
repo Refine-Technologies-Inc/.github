@@ -21,11 +21,11 @@ Our core users are researchers at leading universities, think tanks, and central
 
 ### Our Stack
 
-**Backend** — Python, FastAPI, Azure Functions, Redis for orchestrating multi-stage agentic pipelines at scale
+**Backend** — Python, FastAPI, and Azure Durable Functions orchestrating multi-stage agentic pipelines at scale, with Redis for caching
 
-**Frontend** — TypeScript, TanStack Start, React
+**Frontend** — TypeScript, TanStack Start, React, hosted on Vercel
 
-**Infrastructure** — Azure, Pulumi IaC, containerized deployments
+**Infrastructure** — Azure, Cloudflare, Pulumi IaC, containerized deployments
 
 **AI** — Custom routing and orchestration across frontier LLMs — OpenAI, Claude, Gemini, and others
 
@@ -41,7 +41,7 @@ Zero data retention with LLM providers — your documents are never stored by th
 
 Refine ships an MCP server and a REST API, so you can run deep reviews directly from your editor or wire them into your own pipelines.
 
-**[Get started →](https://www.refine.ink/developers)** — setup, REST API reference, and MCP server config (Claude, Cursor, VS Code).
+**[Get started →](https://www.refine.ink/developers)** — setup, REST API reference, the Refine connector in the Claude directory, and MCP server config for Claude Code, Cursor and VS Code.
 
 > The developer APIs are in Alpha; contracts may change without versioning.
 
